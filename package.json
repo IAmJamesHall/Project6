@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-website",
+  "version": "0.0.1",
+  "description": "Treehouse Project #6 - Node & Express Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+IAmJamesHall/Project_6.git"
+  },
+  "author": "James Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IAmJamesHall/Project_6/issues"
+  },
+  "homepage": "https://github.com/IAmJamesHall/Project_6#readme"
+}
