@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/IAmJamesHall/Project_6/issues"
   },
-  "homepage": "https://github.com/IAmJamesHall/Project_6#readme"
+  "homepage": "https://github.com/IAmJamesHall/Project_6#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
 }
