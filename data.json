@@ -7,7 +7,10 @@
             "technologies": ["HTML", "CSS", "JS"],
             "live-link": "https://iamjameshall.github.io/Project1/",
             "github-link": "https://github.com/IAmJamesHall/Project1",
-            "image-urls": []
+            "image-urls": [
+                "/static/img/Project1/thumbnail.png", 
+                "/static/img/Project1/fullsize1.png"
+            ]
 
         },
         {
@@ -17,8 +20,11 @@
             "technologies": ["HTML", "CSS", "JS"],
             "live-link": "https://iamjameshall.github.io/Project2/",
             "github-link": "https://github.com/IAmJamesHall/Project2",
-            "image-urls": []
-
+            "image-urls": [
+                "/static/img/Project2/thumbnail.png", 
+                "/static/img/Project2/fullsize1.png", 
+                "/static/img/Project2/fullsize2.png"
+            ]
         },
         {
             "id": 3,
@@ -27,7 +33,11 @@
             "technologies": ["HTML", "CSS", "JS"],
             "live-link": "https://iamjameshall.github.io/Project3/",
             "github-link": "https://github.com/IAmJamesHall/Project3",
-            "image-urls": []
+            "image-urls": [
+                "/static/img/Project3/thumbnail.png", 
+                "/static/img/Project3/fullsize1.png", 
+                "/static/img/Project3/fullsize2.png"
+            ]
 
         },
         {
@@ -37,7 +47,11 @@
             "technologies": ["HTML", "CSS", "JS"],
             "live-link": "https://iamjameshall.github.io/Project4/",
             "github-link": "https://github.com/IAmJamesHall/Project4",
-            "image-urls": []
+            "image-urls": [
+                "/static/img/Project4/thumbnail.png", 
+                "/static/img/Project4/fullsize1.png", 
+                "/static/img/Project4/fullsize2.png"
+            ]
 
         },
         {
@@ -47,7 +61,11 @@
             "technologies": ["HTML", "CSS", "JS"],
             "live-link": "https://iamjameshall.github.io/Project5/",
             "github-link": "https://github.com/IAmJamesHall/Project5",
-            "image-urls": []
+            "image-urls": [
+                "/static/img/Project5/thumbnail.png", 
+                "/static/img/Project5/fullsize1.png", 
+                "/static/img/Project5/fullsize2.png"
+            ]
 
         }
     ]
