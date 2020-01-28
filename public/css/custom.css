@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Open+Sans&display=swap');
+
+a.button.expanded {
+    background-color: #245e19;
+}
+.title-bar {
+    background-color: #245e19;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+}
+
+p, h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.portfolio-me a{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: normal;
+}
+
+img.thumbnail,
+a.button.expanded {
+    transition: box-shadow .5s;
+}
+
+img.thumbnail:hover,
+a.button.expanded:hover {
+    -webkit-box-shadow: 10px 10px 41px -5px rgba(171,171,171,1);
+    -moz-box-shadow: 10px 10px 41px -5px rgba(171,171,171,1);
+    box-shadow: 10px 10px 41px -5px rgba(171,171,171,1);
+
+}
