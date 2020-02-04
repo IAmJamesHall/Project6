@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "next build"
+    "build": "npm build"
   },
   "repository": {
     "type": "git",
