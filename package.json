@@ -21,6 +21,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "firebase": "^7.7.0",
+    "now": "^16.7.3",
     "pug": "^2.0.4"
   }
 }
