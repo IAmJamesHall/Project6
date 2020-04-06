@@ -14,19 +14,13 @@ app.engine('.pug', require('pug').__express);
  * display home page with projects from templateData
  */
 app.get('/', (req, res) => {
+    const projects = data.projects.slice();
     const templateData = {
-        projects: data.projects.reverse() // show latest projects first
+        projects: projects.reverse() // show latest projects first
     }
     //res.json({"response": "hey world!"});
     res.render('index', templateData);
 })
-
-// app.get("/", (req, res) => {
-//     res.send("Welcome to a basic express App");
-// });
-
-
-
 
 
 
