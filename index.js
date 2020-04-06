@@ -1,5 +1,6 @@
 const express = require('express');
 const data = require('./data.json');
+const projects = data.projects.slice().reverse(); // show latest projects first
 
 const app = express();
 
@@ -14,12 +15,12 @@ app.engine('.pug', require('pug').__express);
  * display home page with projects from templateData
  */
 app.get('/', (req, res) => {
-    const projects = data.projects.slice();
-    const templateData = {
-        projects: projects.reverse() // show latest projects first
-    }
-    //res.json({"response": "hey world!"});
+    const templateData = { projects }
     res.render('index', templateData);
+})
+
+app.get('/projects', (req, res) => {
+  res.redirect('/');
 })
 
 
@@ -38,7 +39,7 @@ app.get('/about', (req, res) => {
 app.get('/projects/:id', (req, res, next) => {
     const { id } = req.params;
     const templateData = {
-        project: data.projects[id]
+        project: projects[id]
     }
     if (templateData.project) { //if the project id points to a valid project
         res.render('project', templateData);
