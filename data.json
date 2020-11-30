@@ -122,6 +122,25 @@
         "/static/img/Project8/fullsize1.png",
         "/static/img/Project8/fullsize2.png"
       ]
+    },
+    {
+      "id": 8,
+      "project-name": "Authenticated Course Manager",
+      "description": "Full-stack course manager; authentication & CRUD operations supported",
+      "technologies": [
+        "NodeJS",
+        "ReactJS",
+        "SQLite",
+        "CSS",
+        "HTML"
+      ],
+      "live-link": "https://iamjameshall.github.io/Project10/#/",
+      "github-link": "https://github.com/IAmJamesHall/Project10",
+      "image-urls": [
+        "/static/img/Project10/thumbnail.png",
+        "/static/img/Project10/fullsize1.png",
+        "/static/img/Project10/fullsize2.png"
+      ]
     }
   ]
 }
